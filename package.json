@@ -1,0 +1,28 @@
+{
+  "name": "express-tut",
+  "version": "1.0.0",
+  "description": "Following the Express.js tutorial by Traversy Media on YouTube",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psriprac/express-tut.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/psriprac/express-tut/issues"
+  },
+  "homepage": "https://github.com/psriprac/express-tut#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.1",
+    "moment": "^2.29.1",
+    "nodemon": "^2.0.7",
+    "uuid": "^8.3.2"
+  }
+}
